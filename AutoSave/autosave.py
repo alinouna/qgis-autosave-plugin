@@ -74,7 +74,9 @@ class AutoSavePlugin:
 
     # --------------------------------------------------------------------------
     def initGui(self):
-        icon_path = os.path.join(self.plugin_dir, "resources", "images", "icon.jpg")
+        icon_path = os.path.join(self.plugin_dir, "resources", "images", "icon.png")
+        if not os.path.exists(icon_path):
+            icon_path = os.path.join(self.plugin_dir, "resources", "images", "icon.jpg")
         if not os.path.exists(icon_path):
             icon_path = os.path.join(self.plugin_dir, "resources", "images", "icon.svg")
 
