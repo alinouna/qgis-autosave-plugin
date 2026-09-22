@@ -1,0 +1,33 @@
+[general]
+
+name=AutoSave
+
+description=Automatically saves the current QGIS project and all editable vector layers at regular intervals.
+
+version=1.0
+
+qgisMinimumVersion=3.0
+
+qgisMaximumVersion=4.99
+
+author=Ali Nouna
+
+[email=alinouna@gmail.com](mailto:email=alinouna@gmail.com)
+
+about=AutoSave saves your project and all editable layers every X minutes. Layers stay in edit mode after saving so you can continue digitizing without interruption. Perfect for preventing data loss during intensive editing sessions.
+
+tracker=
+
+repository=
+
+tags=autosave, save, backup, editing, layer, project, digitizing
+
+homepage=
+
+category=Plugins
+
+icon=resources/images/icon.png
+
+screenshots=C:/Users/deell/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/AutoSave/resources/images/preview.png
+
+license=MIT License
